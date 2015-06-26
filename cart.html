@@ -1,0 +1,267 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--设置语言编码为uft-8-->
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<!--按1:1比例执行.不允许扩大与缩小.-->
+<meta content="telephone=no" name="format-detection" />
+<!--telephone=no 不允许执行手机播放 telephone=yes 允许执行手机播放-->
+<meta content="email=no" name="format-detection" />
+<!--email=no 不允许执行邮件 email=yes 允许执行邮件-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--如果内容设置为YES，Web应用程序运行在全屏模式;否则，它不会。默认行为是使用Safari浏览器显示网页内容-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--苹果自有顶部状态栏样式:当前设置为"黑色"-->
+<title>购物车</title>
+<!--设置页面标题-->
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+<!--调用通用样式表文件 common.css-->
+<link rel="stylesheet" type="text/css" href="css/modular.css" media="all">
+<!--调用模块样式表文件 modular.css-->
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css" media="all">
+<!--调用字体图标样式文件(压缩版) -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--引用jQuery文件-->
+<script type="text/javascript" src="js/common.js"></script>
+<!--引用通用js文件-->
+<script type="text/javascript" src="js/swipe.js"></script>
+</head>
+<body>
+     <!--顶端状态栏开始-->
+    <header class="Gray-header">
+        <div class="Gh-top">
+            <div class="Ght-wrap">
+                <a class="btn back" href="#."><i class="fa fa-chevron-left i-cf"></i></a> 
+                <a class="btn home" href="javascript:;"><i class="fa fa-home i-cf"></i></a>
+                <a class="btn tel" href="javascript:;"><i class="fa fa-phone i-cf"></i></a>
+                <div class="Ght-wrap-title">购物车</div>
+            </div>
+        </div>
+    </header>
+    <!--顶端状态栏结束-->
+    <div class="cart-main">
+        <div class="tab">
+            <ul class="tablist clearfix">
+                <li class="tab"><a href="#tabpanel1" class="tab_a tab_on tabNormal">到店自提</a></li>
+                <li class="tab"><a href="#tabpanel2" class="tab_a tabNormal">物流配送</a></li>
+            </ul>
+            
+            <ul class="tab_content">
+                <li id="tabpanel1" class="tabpanel">
+                    <div class="lei">
+                        <h4><img src="images/xz.png" alt="">蛋糕</h4>
+                        <div class="lei-info">
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/xz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/xz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="lei">
+                        <h4><img src="images/xz.png" alt="">蛋糕</h4>
+                        <div class="lei-info">
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/xz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/xz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    
+                
+                   
+                <li id="tabpanel2" class="tabpanel">
+                    <div class="lei">
+                        <h4><img src="images/wxz.png" alt="">蛋糕</h4>
+                        <div class="lei-info">
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/wxz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/wxz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lei">
+                        <h4><img src="images/wxz.png" alt="">蛋糕</h4>
+                        <div class="lei-info">
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/wxz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="icon"><img src="images/wxz.png" alt=""></div>
+                                    <div class="pic"><img src="images/jly.png" alt=""></div>
+                                    <div class="txt">
+                                        <h5>草莓奶油蛋糕</h5>
+                                        <span>￥ <em>580</em></span>   
+                                        <div class="item-mp">
+                                            <button class="btn-minus">
+                                            <img src="images/-.png">
+                                            </button>
+                                            <span class="item-count">5</span>
+                                            <button class="btn-plus">
+                                            <img src="images/+.png">
+                                            </button>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <script>
+                $(".tabNormal").powerSwitch({
+                    classAdd: "tab_on"
+                }).eq(0).trigger("click");  
+            </script>
+           
+        </div>
+        <div class="bgcg10"></div>
+        <div class="bgcg10"></div>
+        <div class="bgcg10"></div>
+        
+        <div class="cart-menu">
+            <span>全选</span>总计<em>￥</em><b>256</b><button>立即购买</button>
+        </div>
+    </div>
+    
+    
+<!--nav-->
+    <nav>
+        <ul>
+            <li>
+                <img src="images/a.png">
+                <h5>首页</h5>
+            </li>
+            <li>
+                <img src="images/b.png">
+                <h5>我的订单</h5>
+            </li>
+            <li>
+                <img src="images/c.png">
+                <h5>购物车</h5>
+            </li>
+            <li>
+                <img src="images/d.png">
+                <h5>会员中心</h5>
+            </li>
+            
+        </ul>
+    </nav>
+
+
+  
+  
+  
+   
+</body>
+</html>

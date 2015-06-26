@@ -1,0 +1,192 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--设置语言编码为uft-8-->
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<!--按1:1比例执行.不允许扩大与缩小.-->
+<meta content="telephone=no" name="format-detection" />
+<!--telephone=no 不允许执行手机播放 telephone=yes 允许执行手机播放-->
+<meta content="email=no" name="format-detection" />
+<!--email=no 不允许执行邮件 email=yes 允许执行邮件-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--如果内容设置为YES，Web应用程序运行在全屏模式;否则，它不会。默认行为是使用Safari浏览器显示网页内容-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--苹果自有顶部状态栏样式:当前设置为"黑色"-->
+<title>订单列表</title>
+<!--设置页面标题-->
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+<!--调用通用样式表文件 common.css-->
+<link rel="stylesheet" type="text/css" href="css/modular.css" media="all">
+<!--调用模块样式表文件 modular.css-->
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css" media="all">
+<!--调用字体图标样式文件(压缩版) -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--引用jQuery文件-->
+<script type="text/javascript" src="js/common.js"></script>
+<!--引用通用js文件-->
+<script type="text/javascript" src="js/swipe.js"></script>
+</head>
+<body>
+     <!--顶端状态栏开始-->
+    <header class="Gray-header">
+        <div class="Gh-top">
+            <div class="Ght-wrap">
+                <a class="btn back" href="#."><i class="fa fa-chevron-left i-cf"></i></a> 
+                <a class="btn home" href="javascript:;"><i class="fa fa-home i-cf"></i></a>
+                <a class="btn tel" href="javascript:;"><i class="fa fa-phone i-cf"></i></a>
+                <div class="Ght-wrap-title">订单列表</div>
+            </div>
+        </div>
+    </header>
+    <!--顶端状态栏结束-->
+    <div class="order-list">
+        
+        <div class="p-box">
+            <p> <time>2015年6月26日</time><i>已支付</i></p>
+            <div class="pic-p-box clearfix">
+               <img src="images/logo1.jpg">
+               <div class="p-box">
+                   <p><span>草莓奶油蛋糕</span><b>¥ <em>580</em></b></p>
+                   <p >规格 : <em class="fan">x 1</em></p>
+                   
+               </div>
+            </div>
+            <p><a id="zka1" href="#.">显示所有商品</a></p>
+            
+            <!--
+               
+            <script>
+                $('#zka1').click(function(){
+                    $('.more1').removeClass('dn')    
+                })
+            </script>
+               
+               
+               -->
+            
+            
+            <!--<div class="more1 dn">-->
+            <div class="more1 ">
+                <div class="pic-p-box clearfix">
+                   <img src="images/jly.png">
+                   <div class="p-box">
+                       <p><span>草莓奶油蛋糕</span><b>¥ <em>580</em></b></p>
+                       <p >规格 : <em class="fan">x 1</em></p>
+                   </div>
+               </div> 
+                
+                <a id="yca1" >隐藏所有商品</a> 
+               <!-- <script>
+                    $('#yca1').click(function(){
+                        $('.more1').addClass('dn')
+                    })
+                </script>-->  
+            </div> 
+            <p class="zj">共<span>100</span>件商品 &nbsp; 总计<em> ¥ <b>580</b></em></p>
+        </div>
+        <div class="p-box">
+            <p> <time>2015年6月26日</time><i class="cg">未支付</i></p>
+            <div class="pic-p-box clearfix">
+                <img src="images/jly.png">
+                <div class="p-box">
+                       <p><span>草莓奶油蛋糕</span><b>¥ <em>580</em></b></p>
+                       <p >规格 : <em class="fan">x 1</em></p>
+                </div>
+            </div>
+            <p><a id="zka2" href="#.">显示所有商品</a></p>
+            
+            <script>
+                $('#zka2').click(function(){
+                    $('.more2').removeClass('dn')    
+                })
+            </script>
+            
+            
+            <div class="more2 dn">
+                <div class="pic-p-box clearfix">
+                    <img src="images/jly.png">
+                    <div class="p-box">
+                       <p><span>草莓奶油蛋糕</span><b>¥ <em>580</em></b></p>
+                       <p >规格 : <em class="fan">x 1</em></p>
+                    </div>
+               </div> 
+                
+                <a id="yca2" >隐藏所有商品</a> 
+                <script>
+                    $('#yca2').click(function(){
+                        $('.more2').addClass('dn')
+                    })
+                </script>  
+            </div> 
+            <p class="zj"共<span>100</span>件商品<em>总计 ¥ <b>580</b></em></p>
+        </div>
+        <div class="p-box">
+            <p> <time>2015年6月26日</time><i>已完成</i></p>
+            <div class="pic-p-box clearfix">
+                <img src="images/jly.png">
+                <div class="p-box">
+                   <p><span>草莓奶油蛋糕</span><b>¥ <em>580</em></b></p>
+                   <p >规格 : <em class="fan">x 1</em></p>
+                </div>
+            </div>
+            <p><a id="zka3" href="#.">显示所有商品</a></p>
+            
+            <script>
+                $('#zka3').click(function(){
+                    $('.more3').removeClass('dn')    
+                })
+            </script>
+            
+            
+            <div class="more3 dn">
+                <div class="pic-p-box clearfix">
+                    <img src="images/jly.png">
+                    <div class="p-box">
+                       <p><span>草莓奶油蛋糕</span><b>¥ <em>580</em></b></p>
+                       <p >规格 : <em class="fan">x 1</em></p>
+                    </div>
+                </div>
+                
+                <a id="yca3" >隐藏所有商品</a> 
+                <script>
+                    $('#yca3').click(function(){
+                        $('.more3').addClass('dn')
+                    })
+                </script>  
+            </div> 
+            <p class="zj">共<span>100</span>件商品 总计<em> ¥ <b>580</b></em></p>
+        </div>
+        
+        
+    </div>
+    
+    
+<!--nav-->
+    <nav>
+        <ul>
+            <li>
+                <img src="images/a.png">
+                <h5>首页</h5>
+            </li>
+            <li>
+                <img src="images/b.png">
+                <h5>我的订单</h5>
+            </li>
+            <li>
+                <img src="images/c.png">
+                <h5>购物车</h5>
+            </li>
+            <li>
+                <img src="images/d.png">
+                <h5>会员中心</h5>
+            </li>
+            
+        </ul>
+    </nav>
+    
+  
+  
+  
+   
+</body>
+</html>

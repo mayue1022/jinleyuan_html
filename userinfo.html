@@ -1,0 +1,194 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--设置语言编码为uft-8-->
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<!--按1:1比例执行.不允许扩大与缩小.-->
+<meta content="telephone=no" name="format-detection" />
+<!--telephone=no 不允许执行手机播放 telephone=yes 允许执行手机播放-->
+<meta content="email=no" name="format-detection" />
+<!--email=no 不允许执行邮件 email=yes 允许执行邮件-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--如果内容设置为YES，Web应用程序运行在全屏模式;否则，它不会。默认行为是使用Safari浏览器显示网页内容-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--苹果自有顶部状态栏样式:当前设置为"黑色"-->
+<title>会员特权</title>
+<!--设置页面标题-->
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+<!--调用通用样式表文件 common.css-->
+<link rel="stylesheet" type="text/css" href="css/modular.css" media="all">
+<!--调用模块样式表文件 modular.css-->
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css" media="all">
+<!--调用字体图标样式文件(压缩版) -->
+
+</head>
+<body>
+     <!--顶端状态栏开始-->
+    <header class="Gray-header">
+        <div class="Gh-top">
+            <div class="Ght-wrap">
+                <a class="btn back" href="#."><i class="fa fa-chevron-left i-cf"></i></a> 
+                <a class="btn home" href="javascript:;"><i class="fa fa-home i-cf"></i></a>
+                <a class="btn tel" href="javascript:;"><i class="fa fa-phone i-cf"></i></a>
+                <div class="Ght-wrap-title">个人资料</div>
+            </div>
+        </div>
+    </header>
+    <!--顶端状态栏结束-->
+    <div class="m-personal-main">
+        <h1>个人资料</h1>
+        <form class="m-form">
+        <p>姓 名:
+            <input type="text" placeholder="请输入姓名" />           
+        </p>
+        <p id="sex">
+            <label >性 别:</label>
+            <input type="radio" value="1" name="sex" style="display:none"><em><i data-sex="0" class="fa fa-square-o fa-2x"></i> 男</em>
+            <input type="radio" value="2" name="sex" style="display:none"><em><i data-sex="1" class="fa fa-check-square-o fa-2x"></i> 女</em>
+        </p>
+        <p id="birthday"><label>生 日:</label>
+
+            <!--style="display:none"-->
+			<a class="btn-select" id="btn_select1">
+            	<span>2015年 <i class="fa fa-caret-down fa-1x"></i></span>
+			<select style="display:block"> 
+			<option>选项一</option> 
+			<option>选项二</option> 
+			<option>选项三</option> 
+			<option>选项四</option> 
+			<option>选项五</option> 
+			</select>
+			</a>
+            <a class="btn-select" id="btn_select2">
+            	<span>1月 <i class="fa fa-caret-down"></i></span>
+			<select style="display:block"> 
+			<option>选项一</option> 
+			<option>选项二</option> 
+			<option>选项三</option> 
+			<option>选项四</option> 
+			<option>选项五</option> 
+			</select>
+			</a>
+            <a class="btn-select" id="btn_select3">
+                <span>1日 <i class="fa fa-caret-down"></i></span>
+			<select style="display:block"> 
+			<option>选项一</option> 
+			<option>选项二</option> 
+			<option>选项三</option> 
+			<option>选项四</option> 
+			<option>选项五</option> 
+			</select>
+			</a>
+            <!--<span>1月 <i class="fa fa-caret-down"></i></span>
+            <span>1日 <i class="fa fa-caret-down"></i></span>
+            <br>-->
+<select name="year" > 
+<option value="0">2015年</option> 
+<option value="1">2014年</option> 
+</select> 
+
+<select name="month" > 
+<option value="0">1月</option> 
+<option value="1">2月</option> 
+</select> 
+
+<select name="day" > 
+<option value="0">1日</option> 
+<option value="1">2日</option> 
+</select> 
+
+        </p>
+        <p><label>手 机:</label>
+             <input type="text" placeholder="请输入手机号码" maxlength="11"/>
+        </p>
+        <h1><img src="images/123.jpg"><br>我的二维码</h1>
+        <button>提交</button>
+        </form>
+    </div>
+    <!--nav-->
+    <nav>
+        <ul>
+            <li>
+                <img src="images/a.png">
+                <h5>首页</h5>
+            </li>
+            <li>
+                <img src="images/b.png">
+                <h5>我的订单</h5>
+            </li>
+            <li>
+                <img src="images/c.png">
+                <h5>购物车</h5>
+            </li>
+            <li>
+                <img src="images/d.png">
+                <h5>会员中心</h5>
+            </li>
+            
+        </ul>
+    </nav>
+
+    
+  
+    
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--引用jQuery文件-->
+<script type="text/javascript" src="js/common.js"></script>
+<!--引用通用js文件-->
+<script>
+    // 处理性别
+    $('#sex').find('i').bind('click', function(){
+        // 当未选中状态时
+        if ($(this).hasClass('fa-square-o')) {
+            // 删除所有的选中状态
+            $('#sex').find('i').removeClass('fa-check-square-o');
+            // 加上所有的未选中状态
+            $('#sex').find('i').addClass('fa-square-o');
+            // 删除当前要选的未选中状态
+            $(this).removeClass('fa-square-o');
+            // 增加当前要选择的元素的选中状态
+            $(this).addClass('fa-check-square-o');
+            // 处理radio值
+            $('#sex').find('input').attr('checked', false);
+            $('#sex').find('input').eq($(this).attr('data-sex')).attr('checked', true);
+        }
+    });
+    
+	var $$ = function (id) { 
+		return document.getElementById(id); 
+	} 
+	window.onload = function () { 
+		var btnSelect1 = $$("btn_select1"); 
+		var curSelect1 = btnSelect1.getElementsByTagName("span")[0]; 
+		var oSelect1 = btnSelect1.getElementsByTagName("select")[0]; 
+		var aOption1 = btnSelect1.getElementsByTagName("option"); 
+		oSelect1.onchange = function () { 
+			var text=oSelect1.options[oSelect1.selectedIndex].text; 
+				curSelect1.innerHTML = text + '<i class="fa fa-caret-down fa-1x"></i>'; 
+		}
+		var btnSelect2 = $$("btn_select2"); 
+		var curSelect2 = btnSelect2.getElementsByTagName("span")[0]; 
+		var oSelect2 = btnSelect2.getElementsByTagName("select")[0]; 
+		var aOption2 = btnSelect2.getElementsByTagName("option"); 
+		oSelect2.onchange = function () { 
+			var text=oSelect2.options[oSelect2.selectedIndex].text; 
+				curSelect2.innerHTML = text + '<i class="fa fa-caret-down fa-1x"></i>'; 
+		} 
+		var btnSelect3 = $$("btn_select3"); 
+		var curSelect3 = btnSelect3.getElementsByTagName("span")[0]; 
+		var oSelect3 = btnSelect3.getElementsByTagName("select")[0]; 
+		var aOption3 = btnSelect3.getElementsByTagName("option"); 
+		oSelect3.onchange = function () { 
+			var text=oSelect3.options[oSelect3.selectedIndex].text; 
+				curSelect3.innerHTML = text + '<i class="fa fa-caret-down fa-1x"></i>'; 
+		}  
+	} 
+
+
+</script>
+	
+
+	
+</html>
+

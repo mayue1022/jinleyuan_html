@@ -1,0 +1,246 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--设置语言编码为uft-8-->
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<!--按1:1比例执行.不允许扩大与缩小.-->
+<meta content="telephone=no" name="format-detection" />
+<!--telephone=no 不允许执行手机播放 telephone=yes 允许执行手机播放-->
+<meta content="email=no" name="format-detection" />
+<!--email=no 不允许执行邮件 email=yes 允许执行邮件-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--如果内容设置为YES，Web应用程序运行在全屏模式;否则，它不会。默认行为是使用Safari浏览器显示网页内容-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--苹果自有顶部状态栏样式:当前设置为"黑色"-->
+<title>time</title>
+<!--设置页面标题-->
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+<!--调用通用样式表文件 common.css-->
+<link rel="stylesheet" type="text/css" href="css/modular.css" media="all">
+<!--调用模块样式表文件 modular.css-->
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css" media="all">
+<!--调用字体图标样式文件(压缩版) -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--引用jQuery文件-->
+<script type="text/javascript" src="js/common.js"></script>
+<!--引用通用js文件-->
+<script type="text/javascript" src="js/swipe.js"></script>
+</head>
+<body>
+     <!--顶端状态栏开始-->
+    <header class="Gray-header">
+        <div class="Gh-top">
+            <div class="Ght-wrap">
+                <a class="btn back" href="#."><i class="fa fa-chevron-left i-cf"></i></a> 
+                <a class="btn home" href="javascript:;"><i class="fa fa-home i-cf"></i></a>
+                <a class="btn tel" href="javascript:;"><i class="fa fa-phone i-cf"></i></a>
+                <div class="Ght-wrap-title">到店自提</div>
+            </div>
+        </div>
+    </header>
+    <!--顶端状态栏结束-->
+    <div class="peisong1">
+        <div class="time">
+            <p id="birthday"><label>提货时间:</label>
+
+        <input value="0000-00-00" class="flex_box" id="inBirthday" style="display:none" />
+        <!--style="display:none"-->
+			<a class="btn-select" id="btn_select1">
+                <span>2015年 <i class="fa fa-angle-down"></i></span>
+                <select style="display:block" id="inBirthYear">
+                    <option value="1">2016年</option>
+                    <option value="2">2017年</option>
+                </select>
+            </a>
+            <a class="btn-select" id="btn_select2">
+                <span>01月<i class="fa fa-angle-down"></i></span>
+                <select style="display:block" id="inBirthMonth">
+                    
+                    <option value="01">01月</option>
+                    <option value="02">02月</option>
+                    <option value="03">03月</option>
+                    <option value="04">04月</option>
+                    <option value="05">05月</option>
+                    <option value="06">06月</option>
+                    <option value="07">07月</option>
+                    <option value="08">08月</option>
+                    <option value="09">09月</option>
+                    <option value="10">10月</option>
+                    <option value="11">11月</option>
+                    <option value="12">12月</option>
+                </select>
+			</a>
+            <a class="btn-select" id="btn_select3">
+                <span>01日 <i class="fa fa-angle-down"></i></span>
+			<select style="display:block" id="inBirthDay"> 
+                
+                <option value="1">01日</option>
+                <option value="2">02日</option>
+                <option value="3">03日</option>
+                <option value="4">04日</option>
+                <option value="5">05日</option>
+                <option value="6">06日</option>
+                <option value="7">07日</option>
+                <option value="8">08日</option>
+                <option value="9">09日</option>
+                <option value="10">10日</option>
+                <option value="11">11日</option>
+                <option value="12">12日</option>
+                <option value="13">13日</option>
+                <option value="14">14日</option>
+                <option value="15">15日</option>
+                <option value="16">16日</option>
+                <option value="17">17日</option>
+                <option value="18">18日</option>
+                <option value="19">19日</option>
+                <option value="20">20日</option>
+                <option value="21">21日</option>
+                <option value="22">22日</option>
+                <option value="23">23日</option>
+                <option value="24">24日</option>
+                <option value="25">25日</option>
+                <option value="26">26日</option>
+                <option value="27">27日</option>
+                <option value="28">28日</option>
+                <option value="29">29日</option>
+                <option value="30">30日</option>
+                <option value="31">31日</option>
+            </select>
+        </a>
+        </p> 
+        </div>
+        <div class="t-box">
+           <ul class="clearfix">
+               <li><span>8:00~10:00</span></li>
+               <li><span>12:00~14:00</span></li>
+               <li><span>16:00~20:00</span></li>
+           </ul>
+           <script>
+                $('.t-box span').click(function(){
+                    if(!$(this).hasClass('t-box-s-y')){
+                        $('.t-box span').removeClass('t-box-s-y')
+                        $(this).addClass('t-box-s-y')                             
+                    }else{
+                        $('.t-box span').removeClass('t-box-s-y')
+                    }
+                })
+            </script>  
+        </div>
+        <div class="bgcg10"></div>
+        <div class="add">
+            <h5>提货门店</h5>
+            <div class="add-box">
+                <p class="clearfix">
+                    <b>
+                        <a class="btn-select" id="btn_select1">
+                            <span>选择省市<i class="fa fa-angle-down"></i></span>
+                            <select style="display:block" id="inBirthYear">
+                                <option value="0">2015年</option>
+                                <option value="1">2014年</option>
+                            </select>
+                        </a>
+                    </b>
+                    <b>
+                        <a class="btn-select" id="btn_select2">
+                            <span>选择城市<i class="fa fa-angle-down"></i></span>
+                            <select style="display:block" id="inBirthMonth">
+                                
+                                <option value="01">1月</option>
+                                <option value="02">2月</option>
+                                <option value="03">3月</option>
+                            </select>
+			            </a>
+                    </b>
+                    <b>
+                        <a class="btn-select" id="btn_select3">
+                            <span>选择区域<i class="fa fa-angle-down"></i></span>
+                            <select style="display:block" id="inBirthDay"> 
+                                
+                                <option value="1">1日</option>
+                                <option value="2">2日</option>
+                                <option value="3">3日</option>
+                                
+                                
+                            </select>
+                        </a>
+                    </b>
+                    <input value="0000-00-00" class="flex_box" id="inBirthday" style="display:none" />
+                </p> 
+                <div class="add-info">
+                   <p>门店地址:<em>河东区津塘路与荐福道交口</em></p>
+                   <p>门店电话:<em>022-2222-2222</em></p>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <h5>个人信息</h5>
+            <p>姓名:<input placeholder="王五"></input></p>
+            <p>联系电话:<input placeholder="12300001111"></input></p>
+            <div class="area">
+                备注:
+                <textarea placeholder="如购买数字蜡烛请填写需要数字"></textarea>
+            </div>
+        </div>
+        <div class="jiesuan">
+            <h5>订单结算</h5>
+            <p>订单金额<span>¥ <b>580</b></span></p>
+            <p>我的积分(剩余<em>300</em>分,可优惠<em>0.3</em>元)
+                <span>
+                    <label class="switch">
+                        <input name="cbRemember" type="checkbox" id="cbRemember" class="switch_input">
+                        <em></em>
+                </span>
+            </p>
+            <p>使用优惠券(剩余<em>3</em>张)<span>- ¥ <b>80</b></span></p>
+            <p>合计金额<span>¥ <b>500</b></span></p>
+        </div>
+        <button>提 交 订 单</button>
+    </div>
+<!---->    
+ 
+ <script>
+    $('.toggle').click(function(e) {
+  var toggle = this;
+  
+  e.preventDefault();
+  
+  $(toggle).toggleClass('toggle--on')
+         .toggleClass('toggle--off')
+         .addClass('toggle--moving');
+  
+  setTimeout(function() {
+    $(toggle).removeClass('toggle--moving');
+  }, 200)
+}); 
+</script>   
+    
+    
+<!--nav-->
+    <nav>
+        <ul>
+            <li>
+                <img src="images/a.png">
+                <h5>首页</h5>
+            </li>
+            <li>
+                <img src="images/b.png">
+                <h5>我的订单</h5>
+            </li>
+            <li>
+                <img src="images/c.png">
+                <h5>购物车</h5>
+            </li>
+            <li>
+                <img src="images/d.png">
+                <h5>会员中心</h5>
+            </li>
+            
+        </ul>
+    </nav>
+
+  
+  
+  
+   
+</body>
+</html>
