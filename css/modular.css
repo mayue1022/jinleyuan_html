@@ -561,10 +561,136 @@ nav{height: 70px;}
 .order-list .more3>.pic-p-box {border-top:1px dashed #3b1d86;background: #fff;width: 100%;margin:-28px 0 0; }
 .order-list .more3>p {border-bottom: 1px solid #ddd;padding: 0;}
 .order-list .p-box .cg {color: dimgray;}
+/*group-buying*/
+.tuangou {}
+.tuangou form {background: #ddd;}
+.tuangou ul {}
+.tuangou li {margin-bottom: 5px;background: #fff;padding: 0 20px 10px;}
+.tuangou h3 {font-weight: normal;color: #3b1d86;font-size: 14px;line-height: 1.8;}
+.tuangou label {color: #3b1d86;font-size: 14px;line-height: 1.5;width: 20%;display: inline-block;text-align: center;}
+.tuangou input {width: 70%;display: inline-block;background: rgba(221, 221, 221, 0.7);/*padding: 10px*/}
+.m-checkbox2 {}
+.m-checkbox2 span {width: 49%;display: inline-block;text-align: center;margin:5px 0;}
+.m-checkbox2 em {color: gray;font-size: 8px;line-height: 2;border: 1px solid gray;width: 95%;display: inline-block}
+.m-checkbox2 .mc2e {border: 1px solid #3b1d86;background: url(../images/g.png) no-repeat right 8px;background-size: 16px 16px;color: #000;}
+.m-checkbox2 label {text-align: left;color: #000;}
+.m-checkbox2 input {width: 100%;background: #fff;}
+.m-nyr {display: inline-block;}
+.m-nyr select {}
+.m-nyr option {}
+.m-checkbox3 {}
+.m-checkbox3 span {width: 33.33%;display: inline-block;text-align: center; float: left;}
+.m-checkbox3 em {width: 96%;display: inline-block;font-size: 8px;line-height: 1.5;border: 1px solid #3b1d86;}
+.m-checkbox3 .mc3e {background: #3b1d86;color: #fff;}
+.m-checkbox3 label {width: 100%;text-align: left;color: #000;font-size: 8px;text-indent: 1em;}
+.tuangou button {text-align: center;color: #fff;background: #3b1d86;width: 100%;font-size: 20px;line-height: 2;}
+.bgcw {background: #fff;}
+.tuangou .test .w3 {width: 30%;background: #fff;float: left;}
+.tuangou .test .w3 label {width: 100%;text-align: center;line-height: 35px;}
+.tuangou .test .w7 {width: 70%;background: #fff;display: inline-block;}
+.tuangou .test .w7 input {width: 100%;padding: 10px;border: none;background: rgba(221, 221, 221, 0.5);}
+.tuangou .test .w7 textarea {width: 100%;padding: 10px;border: none;background: rgba(221, 221, 221, 0.5);}
+.tuangou .item {padding: 10px 20px;}
 
+.m-nyr span {color: #000;font-size: 12px;line-height: 20px;padding:3px 0 3px 3px;}
+.m-nyr span i {color: #7d478f;font-size: 12px;line-height: 20px;height: 18px;width: 20px; background-color: #fff;display:inline-block;text-align: center;border: 1px solid #3b1d86;}
+.m-nyr select { display:none;}
 
+.m-nyr .btn-select { 
+	position: relative; 
+	display: inline-block; 
+	margin-right: 5px;
+	height: 20px; 
+	background-color: #ddd;  
+	color: #000; 
+    top: 0px;
+    left:0px;
+    border: none;
+    border-radius: none;
+	} 
+	.m-nyr .btn-select .cur-select { 
+	position: absolute; 
+	display: block; 
+	width: 150px; 
+	height: 25px; 
+	line-height: 25px; 
+	background: blue url(ico-arrow.png) no-repeat 125px center; 
+	text-indent: 10px; 
+    top:0px;
+	} 
+	.m-nyr .btn-select:hover .cur-select { 
+	background-color: #ddd; 
+	} 
+	.m-nyr .btn-select select { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 66px; 
+	height: 20px; 
+	opacity: 0; 
+	filter: alpha(opacity: 0;); 
+	color: #7d478f; 
+	} 
+	.m-nyr .btn-select select option { 
+	text-indent: 10px; 
+    width: 80px; 
+	height: 30px; 
+	} 
+	.m-nyr .btn-select select option:hover { 
+	background-color: #f80; 
+	color: #000; 
+	} 
 
-
+    .m-123 {padding: 10px 0;}
+        .m-123 p { color: #000;font-size: 14px;line-height: 30px;background-color: #fff;border: 1px solid #3b1d86;border-bottom: 1px dashed #3b1d86;text-align: center;height: 28px;}
+            .m-123 b {width: 33%;float: left;height: 100%;}
+            .m-123 b:nth-child(2) {border-left:1px dashed #3b1d86;border-right:1px dashed #3b1d86;}
+                .m-123 span {background: #fff;text-align: center;display: inline-block;color: #000;font-size: 12px;line-height: 20px;padding: 3px 0;}
+                    .m-123 span i {color: #7d478f;font-size: 12px;line-height: 20px;height: 18px;width: 20px; background-color: #fff;display:inline-block;text-align: center;}
+                .m-123 select { display:none;}
+                .m-123 .btn-select { 
+                    position: relative; 
+                    display: inline-block; 
+                    height: 30px; 
+                    color: #000; 
+                    top: 0px;
+                    left:0px;
+                    border: none;
+                    } 
+                    .m-123 .btn-select .cur-select { 
+                    position: absolute; 
+                    display: block; 
+                    width: 150px; 
+                    height: 25px; 
+                    line-height: 25px; 
+                    background: blue url(ico-arrow.png) no-repeat 125px center; 
+                    text-indent: 10px; 
+                    top:0px;
+                    } 
+                    .m-123 .btn-select:hover .cur-select { 
+                    background-color: #ddd; 
+                    } 
+                    .m-123 .btn-select select { 
+                    position: absolute; 
+                    top: 0; 
+                    left: -10px;
+                    width: 85px; 
+                    height: 30px; 
+                    opacity: 0; 
+                    filter: alpha(opacity: 0;); 
+                    color: #7d478f; 
+                    } 
+                    .m-123 .btn-select select option { 
+                    text-indent: 10px; 
+                    width: 80px; 
+                    height: 30px; 
+                    } 
+                    .m-123 .btn-select select option:hover { 
+                    background-color: #f80; 
+                    color: #000; 
+                    } 
+.m-123 .area {border: 1px solid #3b1d86;border-top:none;text-align: left;font-size: 14px;line-height: 20px; text-indent: 1em;height: 50px;}
+.m-123 .area textarea {height: 50px;padding: 0;margin-left: -14px;text-indent: 1em;}
 
 
 
