@@ -173,9 +173,9 @@
         .m-wedbox {}
             .box {float: left;width: 49%;position: relative;margin-right: 1%;}
                 .box img {width: 100%;}
-                .box p {width: 100%;color: #fff;clear: both;display: inline-block;position: absolute;bottom: 0;height: 18px;padding: 6px 0;background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:-moz-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8)); background-image:-o-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:linear-gradient(top,rgba(255,255,255,.1), rgba(60,30,135,.8)); }
+                .box p {width: 100%;color: #fff;clear: both;display: inline-block;position: absolute;bottom: 0;left:0;height: 18px;padding: 6px 0;background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:-moz-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8)); background-image:-o-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:linear-gradient(top,rgba(255,255,255,.1), rgba(60,30,135,.8)); }
                 .box span {font-size:16px;line-height: 18px;padding-left: 5px;}
-                .box b { font-size: 2px;position: absolute;bottom: 5px;right: 2px;line-height: 18px;}
+                .box b { font-size: 12px;position: absolute;bottom: 5px;right: 2px;line-height: 18px;}
                 .box em {font-size: 12px;line-height: 18px;}
            
 /*lunbo*/
