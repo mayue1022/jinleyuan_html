@@ -698,8 +698,12 @@ nav{height: 70px;}
 .m-123 .area {border: 1px solid #3b1d86;border-top:none;text-align: left;font-size: 14px;line-height: 20px; text-indent: 1em;height: 50px;}
 .m-123 .area textarea {height: 50px;padding: 0;margin-left: -14px;text-indent: 1em;}
 
-
-
+/*20150710*/
+.box .ysq {width: 80px;height: auto;position: absolute;bottom:25px;right:5px;}
+.order-title {position: relative;}
+.order-title .ysqq {position: absolute;width: 100px;height: auto;right: 10px;bottom:40px;z-index: 10; -webkit-transform:rotate(20deg);}
+.order-menu .cg {color: gray;}
+.order-menu .bg {background: gray;}
 
 
 
