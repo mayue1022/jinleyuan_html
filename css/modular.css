@@ -166,7 +166,7 @@
 	} 
 
 /*weddingcake*/
-.g-weddingcake {padding: 2%;}
+.g-weddingcake {padding: 2%;display: inline-block}
     .gw-title {font-size:12px;color: #3B1E88;line-height: 40px;}
         .gw-title span {font-size:20px;color: #3B1E88;line-height: 40px;float: left;border-left: 6px solid #3B1E88;padding-left: 10px;}
         .gw-title button {font-size:12px;color: #fff;line-height: 30px;background-color: #3B1E88;padding: 0 10px;border-radius: 5px;float: right;margin: 5px;}
@@ -704,7 +704,7 @@ nav{height: 70px;}
 .order-title .ysqq {position: absolute;width: 100px;height: auto;right: 10px;bottom:40px;z-index: 10; -webkit-transform:rotate(20deg);}
 .order-menu .cg {color: gray;}
 .order-menu .bg {background: gray;}
-
+.bgcw70 {background: #fff;height: 70px;}
 
 
 
