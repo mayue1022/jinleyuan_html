@@ -448,7 +448,7 @@ nav{height: 70px;}
 .p0>p {font-size: 12px;line-height: 24px;}
 .p0 span {color: #3b1d86;}
 .p0 span p {color: #000;}
-.order-menu {background: #fff;color: #3b1d86;position:relative;font-size: 14px;color: #3b1d86;background: #fff;padding: 0 20px;height: 40px;line-height: 40px;}
+.order-menu {color: #3b1d86;position:relative;font-size: 14px;padding: 0 20px;height: 40px;line-height: 40px;}
     .order-menu span {line-height: 40px;font-size: 12px;position: absolute;right: 100px;padding-right: 50px;color: #000;}
     .order-menu a {background: #3b1d86;padding: 5px;border-radius: 50%;line-height: 40px;font-size: 40px;display: inline-block;position: absolute;right: 0px;top: -5px;z-index: 2;}
     .order-menu img {height: 30px;width:30px;line-height: 40px;font-size: 30px;}
