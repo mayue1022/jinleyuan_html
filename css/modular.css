@@ -705,10 +705,19 @@ nav{height: 70px;}
 .order-menu .cg {color: gray;}
 .order-menu .bg {background: gray;}
 .bgcw70 {background: #fff;height: 70px;}
-
-
-
-
+.chongzhi-box {}
+.cz-box {}
+.cz-box ul {padding:10px 20px;}
+.cz-box li {border: 1px solid #3b1d86;margin: 10px 0;display: inline-block;width: 100%;position: relative;color: #3b1d86;}
+.czfh {display: inline-block;font-size: 40px;line-height: 40px;width: 60px;text-align: center;}
+.czje {display: inline-block;padding: 10px 0;}
+.czje p {font-size: 20px;line-height: 1.5;color: #3b1d86;}
+.czje p:last-child {font-size: 12px;line-height: 1.5;color: red;}
+.czje em {}
+.cz-box button {background: #3b1d86;border-radius: 5px;color: #fff;font-size: 20px;padding: 10px 20px;position: absolute;top:10px;right: 10px;}
+.cz-info {padding: 0 20px 20px;color: gray;font-size: 14px;}
+.cz-info p {}
+.m-privilege-main .bgcw {background: #fff;}
 
 
 
