@@ -191,6 +191,7 @@
         .Gfs-wrap ol li.on{ background-color:#fff; }
 
 .box h3 {font-weight: normal;text-align: center;background-color: rgba(147, 112, 219, 0.6);position: absolute;bottom: 0;width: 100%;color: #fff;padding: 10px 0;}
+.box img {height:100px;}
 .cake7 {background-color: #ddd;padding: 10px 0 0;}
     .cake7 ul {background-color: #fff;padding: 10px 10px 0;}
             .cake7 a {display: inline-block;width: 49%;float: left;height: 50px;position: relative;border-bottom: 1px solid #ddd;margin: 1% 1% 1% 0;}
