@@ -171,20 +171,20 @@
         .gw-title span {font-size:20px;color: #3B1E88;line-height: 40px;float: left;border-left: 6px solid #3B1E88;padding-left: 10px;}
         .gw-title button {font-size:12px;color: #fff;line-height: 30px;background-color: #3B1E88;padding: 0 10px;border-radius: 5px;float: right;margin: 5px;}
         .m-wedbox {}
-            .box {float: left;width: 49%;position: relative;margin: 1%;}
+            .box {float: left;width: 49%;position: relative;margin: 1%;width:50vw;height: 50vw;}
             .box:nth-child(2n+1){float: left;width: 49%;position: relative;margin-left: 0;}
             .box:nth-child(2n){float: left;width: 49%;position: relative;margin-right: 0;}
-                .box img {width: 100%;height: 150px;}
-                .box p {width: 100%;color: #fff;clear: both;display: inline-block;position: absolute;bottom: 0;left:0;height: 18px;padding: 6px 0;background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:-moz-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8)); background-image:-o-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:linear-gradient(top,rgba(255,255,255,.1), rgba(60,30,135,.8)); }
-                .box span {font-size:16px;line-height: 18px;padding-left: 5px;}
-                .box b { font-size: 12px;position: absolute;bottom: 5px;right: 2px;line-height: 18px;}
+                .box img {width: 100%;height: 100%;}
+                .box p {width: 100%;color: #fff;clear: both;display: inline-block;position: absolute;bottom: 0;left:0;height: 18px;padding: 6px 0 0;background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:-moz-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8)); background-image:-o-linear-gradient(top, rgba(255,255,255,.1), rgba(60,30,135,.8));background-image:linear-gradient(top,rgba(255,255,255,.1), rgba(60,30,135,.8)); }
+                .box span {font-size:16px;line-height: 18px;padding: 6px 0 0 5px;}
+                .box b {font-size: 12px;position: absolute;bottom: 0px;right: 2px;line-height: 12px;}
                 .box em {font-size: 12px;line-height: 18px;}
            
 /*lunbo*/
 .Gray-focus-swipe { -webkit-box-sizing:border-box; word-wrap:break-word; word-break:keep-all;/*padding: 0 2%;*/}
     .Gfs-wrap { overflow:hidden; position:relative;}
         .Gfs-wrap ul { -webkit-padding-start:0px; }
-            .Gfs-wrap ul li { }
+            .Gfs-wrap ul li {height: 200px; }
             .Gfs-wrap ul li .cus { width:100%; }
         .Gfs-wrap ol { height:20px; position:relative; z-index:10; margin:0 auto; margin-top:-30px; text-align:center;
         /* [disabled]background-color: rgba(0,0,0,0.3); */
@@ -193,12 +193,11 @@
         .Gfs-wrap ol li.on{ background-color:#fff; }
 
 .box h3 {font-weight: normal;text-align: center;background-color: rgba(147, 112, 219, 0.3);position: absolute;bottom: 0;width: 100%;color: #fff;padding: 10px 0;}
-.box img {height:100px;}
 .cake7 {background-color: #ddd;padding: 10px 0 0;}
     .cake7 ul {background-color: #fff;padding: 10px 10px 0;}
-            .cake7 a {display: inline-block;width: 49%;float: left;height: 50px;position: relative;border-bottom: 1px solid #ddd;margin: 1%;}
-            .cake7 a:nth-child(2n+1){float: left;width: 49%;position: relative;margin-left: 0;}
-            .cake7 a:nth-child(2n){float: left;width: 49%;position: relative;margin-right: 0;}
+            .cake7 a {display: inline-block;width: 49.5%;float: left;height: 50px;position: relative;border-bottom: 1px solid #ddd;}
+            .cake7 a:nth-child(2n+1){float: left;width: 49%;position: relative;border-right: 1px solid #ddd;}
+            .cake7 a:nth-child(2n){float: left;width: 49.5%;position: relative;}
             .cake7 img {height: 50px;width: 60px;position: absolute;}
             .cake7 em {position: absolute;bottom:0;right:0;color: #3B1E88;font-size: 16px;line-height: 20px;padding: 5px;}
             .cake7 li a:first-child {border-right: 1px solid #ddd;}
@@ -206,7 +205,7 @@
 .bp {border-bottom: 2px dashed #3B1E88;padding-bottom: 5px;}
 .bp:last-child {border-bottom:none;padding-bottom: 0;}
 .bgcg {background-color: #ddd;}
-.index4 {background-color: #fff;border: 1px solid #3B1E88;margin-top: 15px;}
+.index4 {background-color: #fff;border: 1px solid #3B1E88;margin-top: 8px;}
     .index4 span {border: none;padding-left: 20px;}
     .index4 button {background-color: #fff;color: #3B1E88;font-size: 20px;}
 
