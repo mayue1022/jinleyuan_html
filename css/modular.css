@@ -166,7 +166,7 @@
 	} 
 
 /*weddingcake*/
-.g-weddingcake {padding: 2%;display: inline-block}
+.g-weddingcake {padding: 2%;}
     .gw-title {font-size:12px;color: #3B1E88;line-height: 40px;}
         .gw-title span {font-size:20px;color: #3B1E88;line-height: 40px;float: left;border-left: 6px solid #3B1E88;padding-left: 10px;}
         .gw-title button {font-size:12px;color: #fff;line-height: 30px;background-color: #3B1E88;padding: 0 10px;border-radius: 5px;float: right;margin: 5px;}
