@@ -62,7 +62,7 @@
     </script>
 <!--jieshu-->
    <div class="g-weddingcake">
-        <ul class="clearfix">
+        <ul class="m-wedbox clearfix">
             <div class="box">
                 <img src="images/jly.png">
                 <h3 class="i-title">婚礼蛋糕</h3>
@@ -106,7 +106,7 @@
             <span>奶油水果蛋糕</span>
             <button>more</button>
         </div>
-        <ul class="bp clearfix">
+        <ul class="bp m-wedbox clearfix">
             
                 <div class="box">
                     <img src="images/jly.png">
@@ -126,7 +126,7 @@
             <span>奶油水果蛋糕</span>
             <button>more</button>
         </div>
-        <ul class="bp clearfix">
+        <ul class="bp m-wedbox clearfix">
             
                 <div class="box">
                     <img src="images/jly.png">
@@ -165,16 +165,16 @@
         </ul>
     </nav>
 </body>
-<!--<script>
-    var windowWidth = $('.g-weddingcake').width();
-            var liObj = $('.g-weddingcake').find('.box');
+<script>
+    var windowWidth = $('.m-wedbox').width();
+            var liObj = $('.m-wedbox').find('.box');
             var liNum = liObj.length;
             var lastLi = liNum - 1;
-            var liMargin = 6;
-            var liWidth = Math.floor((windowWidth - liMargin * (liNum - 1)) / liNum);
-            $('.g-weddingcake').find('.box').width(liWidth);
-            $('.g-weddingcake').find('.box').height(liWidth);
-            $('.g-weddingcake').find('.box').css('margin-right', liMargin + 'px');
-            $('.g-weddingcake').find('.box:eq(' + lastLi + ')').css('margin-right', '');
-</script>-->
+            var liMargin = 10;
+            var liWidth = Math.floor((windowWidth - liMargin * (3)) / 2);
+            $('.m-wedbox').find('.box').width(liWidth);
+            $('.m-wedbox').find('.box').height(liWidth);
+         /*   $('.g-weddingcake').find('.box').css('margin-right', liMargin + 'px');
+            $('.g-weddingcake').find('.box:even').css('margin-right', '');*/
+</script>
 </html>
