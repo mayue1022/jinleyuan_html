@@ -169,11 +169,12 @@
     var windowWidth = $('.m-wedbox').width();
             var liObj = $('.m-wedbox').find('.box');
             var liNum = liObj.length;
-            var lastLi = liNum - 1;
             var liMargin = 10;
-            var liWidth = Math.floor((windowWidth - liMargin * (3)) / 2);
+            var liWidth = Math.floor((windowWidth - liMargin) / 2);
             $('.m-wedbox').find('.box').width(liWidth);
             $('.m-wedbox').find('.box').height(liWidth);
+            $('.m-wedbox').find('.box').css('margin', 0);
+			
          /*   $('.g-weddingcake').find('.box').css('margin-right', liMargin + 'px');
             $('.g-weddingcake').find('.box:even').css('margin-right', '');*/
 </script>
