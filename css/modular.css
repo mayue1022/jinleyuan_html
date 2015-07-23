@@ -410,17 +410,18 @@ nav{height: 70px;}
 .pic { width: 100px;height: 100px;float: left;padding: 10px;}
 .pic img {width: 100%;height:100%;}
 .txt { padding: 10px;height: 100px;color: #3b1d86;}
-.txt h5 {font-size: 20px;font-weight: normal;line-height: 40px;height: 40px;}
-.txt span {font-size: 20px;line-height: 30px;height: 30px;position: relative;top:-5px;}
-.item-count {font-size:100px;line-height: 30px;height: 30px;display: inline-block;padding: 0 20px;}
+.txt h5 {font-size: 16px;font-weight: normal;line-height: 20px;height: 20px;}
+.txt span {font-size: 14px;line-height: 20px;height: 20px;position: relative;top:0px;}
+.txt h6 {font-size: 12px;line-height: 20px;height: 20px;position: relative;top:0px;font-weight: normal;}
+.item-count {font-size:12px;line-height: 30px;height: 30px;display: inline-block;padding: 0 5px;}
 .txt em {}
-.item-mp {height: 30px;}
-.item-mp img {height: 30px;width: 30px;}
-.btn-minus {position: relative;top:-10px;}
+.item-mp {height: 20px;position: relative;top: 24px;}
+.item-mp img {height: 20px;width: 20px;}
+.btn-minus {position: relative;top:0px;}
 .btn-minus img {}
-.btn-plus {position: relative;top:-10px;}
+.btn-plus {position: relative;top:0px;}
 .btn-plus img {}
-.cart-menu {background: #fff;color: #3b1d86;position: fixed;bottom: 70px;width: 100%;font-size: 14px;}
+.cart-menu {background: rgba(255, 255, 255, 0.9);color: #3b1d86;position: fixed;bottom: 70px;width: 100%;font-size: 14px;}
     .cart-menu span {color: #fff;background: #3b1d86;font-size: 14px;padding: 5px 10px;border-radius: 5px;line-height: 40px;margin: auto 15px;}
     .cart-menu b {color: #e51572;font-size: 20px;}
     .cart-menu em {font-size: 8px;}
