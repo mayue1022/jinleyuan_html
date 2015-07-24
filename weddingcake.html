@@ -100,4 +100,14 @@
     </nav>
      
 </body>
+<script>
+    var windowWidth = $('.m-wedbox').width();
+            var liObj = $('.m-wedbox').find('.box');
+            var liNum = liObj.length;
+            var liMargin = 10;
+            var liWidth = Math.floor((windowWidth - liMargin) / 2);
+            $('.m-wedbox').find('.box').width(liWidth);
+            $('.m-wedbox').find('.box').height(liWidth);
+            $('.m-wedbox').find('.box').css('margin', '12px 0 0 0');
+</script>
 </html>
