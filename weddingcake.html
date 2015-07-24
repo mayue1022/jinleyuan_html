@@ -101,6 +101,15 @@
      
 </body>
 <script>
+	document.onreadystatechange = loading; 
+    function loading(){
+        if(document.readyState == "complete")
+        { 
+            $("body").hide();
+            $("body").show();
+            
+        }
+    }
     var windowWidth = $('.m-wedbox').width();
             var liObj = $('.m-wedbox').find('.box');
             var liNum = liObj.length;
