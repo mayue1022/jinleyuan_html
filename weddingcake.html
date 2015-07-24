@@ -43,7 +43,7 @@
             <span>婚礼蛋糕</span>
             <button>查看全部</button>
         </div>
-        <div class="m-wedbox">
+        <div class="m-wedbox" style="display:none;">
             <div class="box">
                 <img src="images/jly.png">
                 <p><span>奶油水果蛋糕</span><b>¥<em>999.9</em></b></p>
@@ -101,6 +101,7 @@
      
 </body>
 <script>
+    /*
 	document.onreadystatechange = loading; 
     function loading(){
         if(document.readyState == "complete")
@@ -110,13 +111,15 @@
             
         }
     }
+    */
     var windowWidth = $('.m-wedbox').width();
-            var liObj = $('.m-wedbox').find('.box');
-            var liNum = liObj.length;
-            var liMargin = 10;
-            var liWidth = Math.floor((windowWidth - liMargin) / 2);
-            $('.m-wedbox').find('.box').width(liWidth);
-            $('.m-wedbox').find('.box').height(liWidth);
-            $('.m-wedbox').find('.box').css('margin', '12px 0 0 0');
+    var liObj = $('.m-wedbox').find('.box');
+    var liNum = liObj.length;
+    var liMargin = 10;
+    var liWidth = Math.floor((windowWidth - liMargin) / 2);
+    $('.m-wedbox').find('.box').width(liWidth);
+    $('.m-wedbox').find('.box').height(liWidth);
+    $('.m-wedbox').find('.box').css('margin', '12px 0 0 0');
+    $('.m-wedbox').show();
 </script>
 </html>
