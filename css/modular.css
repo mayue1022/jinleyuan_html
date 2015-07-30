@@ -210,10 +210,10 @@
     .index4 button {background-color: #fff;color: #3B1E88;font-size: 20px;}
 
 /*nav*/
-nav{height: 70px;}
+nav{height: 44px;}
     nav ul {position: fixed;bottom: 0px;width: 100%;background-color: rgba(255, 255, 255, 0.9);z-index: 9999;}
-        nav li {text-align: center;padding: 10px 0;width: 25%;float: left;display: inline-block;}
-            nav img {height: 30px;width: 30px;}
+        nav li {text-align: center;width: 25%;float: left;display: inline-block;padding-top: 4px;}
+            nav img {height: 20px;width: 20px;}
             nav h5 {font-weight: normal;font-size: 14px;line-height: 20px;}
 
 /*order-info*/
@@ -422,7 +422,7 @@ nav{height: 70px;}
 .btn-minus img {}
 .btn-plus {position: relative;top:0px;}
 .btn-plus img {}
-.cart-menu {background: rgba(255, 255, 255, 0.9);color: #3b1d86;position: fixed;bottom: 70px;width: 100%;font-size: 14px;}
+.cart-menu {background: rgba(255, 255, 255, 0.9);color: #3b1d86;position: fixed;bottom: 44px;width: 100%;font-size: 14px;}
     .cart-menu span {color: #fff;background: #3b1d86;font-size: 14px;padding: 5px 10px;border-radius: 5px;line-height: 40px;margin: auto 15px;}
     .cart-menu b {color: #e51572;font-size: 20px;}
     .cart-menu em {font-size: 8px;}
