@@ -1,0 +1,21 @@
+/* 
+ *CSS Reset
+ *Author: Grayfive
+ *Time: 2014.6.30
+ */
+
+/* 全局重置 */
+* { margin:0; padding:0; }
+body { color: #333; font-family:'Arial','Microsoft YaHei'; min-width:320px; }
+ul, ol, li { list-style:none; }
+table { border-collapse:collapse; border-spacing:0; table-layout:fixed; width:100%; }
+a { color:#666; }
+a, a:active, a:hover { text-decoration:none; }
+img { vertical-align:top; border:0; }
+input, select, textarea, button { vertical-align:middle; outline:none; resize:none; }
+button { border:0 none; background-color:transparent; cursor:pointer; }
+address, caption, cite, code, dfn, em, var { font-style:normal; font-weight:normal; }
+
+/* 全局兼容 */
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0; }
+.clearfix { zoom:1; }
