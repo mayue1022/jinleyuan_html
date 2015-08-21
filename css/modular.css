@@ -311,6 +311,20 @@ nav{height: 44px;}
             .t-box-s-y {background: #3b1d86;color: #fff;}
 
 .bgcg10 {background: #ddd;height: 10px;}
+
+.btn-select select {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 85px;
+  height: 30px;
+  opacity: 0;
+  filter: alpha(opacity: 0;);
+	color: #7d478f;}
+strong {font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;}
+
 /*add*/
 .add {padding: 0 20px;}
     .add h5 {font-weight: normal;font-size: 14px;line-height: 30px;}

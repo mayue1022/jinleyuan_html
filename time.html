@@ -192,7 +192,22 @@
                         <em></em>
                 </span>
             </p>
-            <p>使用优惠券(剩余<em>3</em>张)<span>- ¥ <b>80</b></span></p>
+            <p>使用优惠券(剩余<em>3</em>张)<span>
+				<b>
+                        <a class="btn-select" id="btn_select7">
+                            <strong>选择优惠券<i class="fa fa-angle-down"></i></strong>
+                            <select style="display:block;margin-top:0" id="inBirthDay"> 
+                                
+                                <option value="1">优惠券1</option>
+                                <option value="2">优惠券2</option>
+                                <option value="3">优惠券3</option>
+                                
+                                
+                            </select>
+                        </a>
+                    </b>
+						</span></p>
+							
             <p>合计金额<span>¥ <b>500</b></span></p>
         </div>
         <button>提 交 订 单</button>
@@ -283,6 +298,14 @@
 		oSelect6.onchange = function () { 
 			var text=oSelect6.options[oSelect6.selectedIndex].text; 
 				curSelect6.innerHTML = text + '<i class="fa fa-caret-down fa-1x"></i>'; 
+		} 
+		var btnSelect7 = $$("btn_select7"); 
+		var curSelect7 = btnSelect7.getElementsByTagName("strong")[0]; 
+		var oSelect7 = btnSelect7.getElementsByTagName("select")[0]; 
+		var aOption7 = btnSelect7.getElementsByTagName("option"); 
+		oSelect7.onchange = function () { 
+			var text=oSelect7.options[oSelect7.selectedIndex].text; 
+				curSelect7.innerHTML = text + '<i class="fa fa-caret-down fa-1x"></i>'; 
 		} 
 	} 
 
