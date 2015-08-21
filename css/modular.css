@@ -448,9 +448,8 @@ strong {font-weight: normal;
 .order section {color: #000;margin-bottom: 5px;background: #fff;padding: 5px 20px;}
 .order section h2 {color: #3b1d86;}
 .order-title {position: relative;}
-.order-title h1 {font-weight: normal;font-size: 24px;line-height: 40px;display: inline-block;}
-.order-title span {color: #000;font-size: 14px;line-height: 40px;text-align: right;position: absolute;right: 10px;}
-.order-title em {}
+.order-title h1 {font-weight: normal;font-size: 24px;line-height: 40px;}
+.order-title h2 {font-weight: normal;color: #000;font-size: 14px;line-height: 28px;text-align: right;}
 .order header p {font-size: 12px;line-height: 20px;}
 .check {}
 .check h2 {font-weight: normal;font-size: 12px;line-height: 24px;}
