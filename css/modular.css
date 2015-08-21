@@ -566,10 +566,10 @@ strong {font-weight: normal;
 .order-list .p-box b {}
 .order-list .pic-p-box {border-top:1px solid #ddd;margin: 0 20px;padding: 5px 0; border-bottom:1px solid #ddd;  height: 60px;}
 .order-list .pic-p-box img {height: 60px;width: 60px;float: left;margin-right:10px;}
-.order-list .pic-p-box p {color: black;font-size: 14px;line-height: 30px;padding-right: 0px;text-align: left;position: relative;}
-.order-list .pic-p-box p:last-child {color: dimgray;}
+.order-list .pic-p-box p {color: black;font-size: 14px;line-height: 20px;padding-right: 0px;text-align: left;position: relative;}
+.order-list .pic-p-box p:last-child {color: dimgray;font-size: 12px;line-height: 20px;height:40px;padding-left: 50px;}
 
-.fan {position: absolute;right: 0;}
+.fan {position: absolute;right: 0;top: 0;}
 .order-list .pic-p-box span {color: #3b1d86;}
 .order-list .pic-p-box b {float: right;}
 .order-list .pic-p-box b em {color: #e51572;font-size: 24px;}

@@ -60,7 +60,14 @@
             
             <script>
                 $('#zka').click(function(){
-                    $('.more').removeClass('dn')    
+                    if ($('.more').hasClass('dn')){
+						$('.more').removeClass('dn');
+						$('#zka').html('点击隐藏更多详情')
+					}else{
+						$('.more').addClass('dn');
+						$('#zka').html('点击展开更多详情')
+					}
+					
                 })
             </script>
             
@@ -92,12 +99,12 @@
                     备注 : 
                     <textarea placeholder="备注信息"></textarea>
                 </div>
-                <a id="yca" >点击隐藏更多详情</a> 
-                <script>
+                <!--<a id="yca" >点击隐藏更多详情</a> -->
+                <!--<script>
                     $('#yca').click(function(){
                         $('.more').addClass('dn')
                     })
-                </script>  
+                </script>-->  
             </div> 
             <div class="bgcg10"></div>
         </div>
